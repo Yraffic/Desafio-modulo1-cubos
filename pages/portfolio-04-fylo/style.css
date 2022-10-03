@@ -1,0 +1,95 @@
+.img {
+    background-image: url(../../assets/portfolio/fylo/image-fylo-hero.jpg);
+    background-size: 69.375rem 31.25rem;
+    width: 69.375rem;
+    height: 31.25rem;
+
+
+
+}
+
+.conteiner-super {
+    width: 1110px;
+    margin-top: 115px;
+    margin-bottom: 64px;
+    display: flex;
+}
+
+
+
+.texto h1 {
+    margin-top: 48px;
+}
+
+p {
+    font-size: 1rem;
+    color: #33323D;
+    line-height: 1.875rem;
+
+
+    opacity: 80%;
+
+    margin-top: 1.75rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.btn-info2 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto button {
+    all: unset;
+
+    color: #33323D;
+
+    width: 12.75rem;
+    height: 3rem;
+
+    border: 0.0625rem solid #33323D;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.projeto {
+    width: 635px;
+}
+
+.projeto h2 {
+    margin-bottom: 28px;
+}
+
+.projeto p {
+    margin-bottom: 40px;
+}
+
+.projeto img {
+    width: 635px;
+    margin-bottom: 32px;
+}
+
+
+.btn {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.nav button {
+
+    all: unset;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    align-items: center;
+
+    height: 66px;
+}
+
+
+
+.nav button img {
+    width: 8px;
+    height: 16px;
+
+}

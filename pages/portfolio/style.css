@@ -1,0 +1,76 @@
+.conteiner-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 92px;
+    margin-bottom: 82px;
+
+}
+
+.conteiner-img {
+    background-image: url(../../assets/portfolio/manage/image-portfolio-manage.jpg);
+    background-size: 33.75rem 31.25rem;
+
+    width: 33.75rem;
+    height: 31.25rem;
+
+    margin-right: 7.8175rem;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    border-top: 0.06rem solid #33323d53;
+    border-bottom: 0.06rem solid #33323d4f;
+
+
+
+    width: 21.875rem;
+    height: 31.25rem;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 6.4375rem;
+    margin-bottom: 1.75rem;
+}
+
+p {
+    text-align: start;
+    color: #33323D;
+    font-size: 1rem;
+    line-height: 1.875rem;
+}
+
+.btn-p {
+    all: unset;
+
+    margin-top: 54px;
+    margin-bottom: 103px;
+
+    border: 0.06rem solid #33323D;
+
+    padding: 17px 38px;
+
+}
+
+.conteiner-img2 img {
+    width: 33.75rem;
+    height: 31.25rem;
+    margin-left: 125px;
+}
+
+.conteiner-img3 img {
+    width: 33.75rem;
+    height: 31.25rem;
+    margin-right: 125px;
+}
+
+.conteiner-img4 img {
+    width: 33.75rem;
+    height: 31.25rem;
+    margin-left: 125px;
+}
