@@ -85,7 +85,7 @@ body {
 .conteiner-info2 {
     display: flex;
     justify-content: space-between;
-    width: 81.5625rem;
+    width: 69.375rem;
     height: 37.5rem;
 
     margin-top: 9.3125rem;
@@ -169,7 +169,7 @@ body {
 
 }
 
-.rodape .btn-nav {
+.btn-nav ul {
     display: flex;
     flex-direction: row;
     width: 26.125rem;
@@ -180,7 +180,6 @@ body {
 .btn-nav a {
     text-decoration: none;
     color: #FAFAFA;
-    margin-left: 3rem;
 }
 
 .rodape .btn-info3 {

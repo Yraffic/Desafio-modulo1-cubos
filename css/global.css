@@ -18,12 +18,16 @@ body {
     margin-right: 10px;
 }
 
+.projeto {
+    width: 635px;
+    margin-left: 80PX;
+}
+
 .texto {
     width: 26.875rem;
 
     border-top: 1px solid #33323D;
 
-    margin-right: 125px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -47,8 +51,6 @@ body {
     color: #5FB4A2;
 }
 
-
-
 .conteiner-info3 {
     width: 69.375rem;
     display: flex;
@@ -59,7 +61,6 @@ body {
 }
 
 .conteiner-info3 h1 {
-
     width: 22.9375rem;
     height: 5.25rem;
 }
@@ -81,7 +82,7 @@ body {
 
 }
 
-.rodape .btn-nav {
+.btn-nav {
     display: flex;
     flex-direction: row;
     width: 26.125rem;
@@ -92,7 +93,7 @@ body {
 .btn-nav a {
     text-decoration: none;
     color: #FAFAFA;
-    margin-left: 3rem;
+    margin-left: 43px;
 }
 
 .btn-nav a:focus {
@@ -124,18 +125,12 @@ p {
     font-family: 'Public Sans', sans-serif;
 }
 
-
-
 input:focus {
     border: 1px solid #33323D;
 }
 
 a {
     text-decoration: none;
-
-    width: 0px;
-    height: 0px;
-
 }
 
 .btn-info2 {
@@ -162,18 +157,14 @@ a {
     width: 1230px;
     height: 132px;
     display: flex;
-    padding-right: 30px;
+    padding-right: 20px;
     border-top: 1px solid #33323d52;
     border-bottom: 1px solid #33323d52;
 
 }
 
 .btn-final {
-    width: 1000px;
+    width: 1230px;
     display: flex;
     justify-content: space-between;
-}
-
-a:focus {
-    background-color: #00000072;
 }
