@@ -3,9 +3,6 @@
     background-size: 69.375rem 31.25rem;
     width: 69.375rem;
     height: 31.25rem;
-
-
-
 }
 
 .conteiner-super {
@@ -88,4 +85,8 @@ p {
     width: 8px;
     height: 16px;
 
+}
+
+.info {
+    color: #5FB4A2;
 }

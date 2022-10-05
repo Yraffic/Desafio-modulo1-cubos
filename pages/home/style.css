@@ -4,19 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    min-width: 100vh;
-    min-height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .conteiner-nav {
     width: 69.43rem;
     display: flex;
@@ -32,7 +19,7 @@ body {
 
 .conteiner-info1 {
     background-image: url(../../assets/home/image-homepage-hero.jpg);
-    background-size: 69.375rem 37.5rem;
+    background-size: cover;
     width: 69.375rem;
     height: 37.5rem;
 
@@ -51,6 +38,10 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+.conteiner-info1-pequeno button:hover {
+    background-color: #5FB4A2;
 }
 
 .conteiner-info1-pequeno h1 {
@@ -173,7 +164,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 26.125rem;
-    margin-left: 165px;
+    margin-left: 40px;
     align-items: center;
 }
 
@@ -187,7 +178,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 6.5rem;
-    margin-right: 165px;
+    margin-right: 135px;
 }
 
 .btn-info3 button {
@@ -207,4 +198,12 @@ body {
 
     color: #33323D;
     border: 0.0625rem solid #33323D;
+}
+
+.btn-ctt:hover {
+    background-color: #33323d1e;
+}
+
+button:hover {
+    background-color: rgba(51, 50, 61, 0.842);
 }

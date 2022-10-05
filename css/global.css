@@ -7,15 +7,13 @@
 body {
     min-width: 100vh;
     min-height: 100vh;
-
+    --cor-borda-unica: #33323D;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #F2F2F2;
-    margin-left: 10px;
-    margin-right: 10px;
+    background-color: #FAFAFA;
 }
 
 .projeto {
@@ -26,7 +24,7 @@ body {
 .texto {
     width: 26.875rem;
 
-    border-top: 1px solid #33323D;
+    border-top: 1px solid var(--cor-borda-unica);
 
     display: flex;
     flex-direction: column;
@@ -43,11 +41,12 @@ body {
 
 .conteiner-nav a {
     text-decoration: none;
+    letter-spacing: 2px;
     margin-left: 2.62rem;
     color: #33323D;
 }
 
-.conteiner-nav a:focus {
+.conteiner-nav a:hover {
     color: #5FB4A2;
 }
 
@@ -70,13 +69,13 @@ body {
     height: 3rem;
 
     color: #33323D;
-    border: 0.0625rem solid #33323D;
+    border: 0.0625rem solid var(--cor-borda-unica);
 }
 
 .rodape {
     display: flex;
     min-height: 5rem;
-    min-width: 90rem;
+    width: 100%;
     background-color: #33323D;
     justify-content: space-between;
 
@@ -93,10 +92,11 @@ body {
 .btn-nav a {
     text-decoration: none;
     color: #FAFAFA;
+    letter-spacing: 2px;
     margin-left: 43px;
 }
 
-.btn-nav a:focus {
+.btn-nav a:hover {
     color: #5FB4A2;
 }
 
@@ -125,12 +125,21 @@ p {
     font-family: 'Public Sans', sans-serif;
 }
 
+input {
+    cursor: pointer;
+}
+
 input:focus {
     border: 1px solid #33323D;
 }
 
 a {
     text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
 
 .btn-info2 {
@@ -158,8 +167,8 @@ a {
     height: 132px;
     display: flex;
     padding-right: 20px;
-    border-top: 1px solid #33323d52;
-    border-bottom: 1px solid #33323d52;
+    border-top: 1px solid var(--cor-borda-unica);
+    border-bottom: 1px solid var(--cor-borda-unica);
 
 }
 
@@ -167,4 +176,12 @@ a {
     width: 1230px;
     display: flex;
     justify-content: space-between;
+}
+
+.btn-nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 26.125rem;
+    margin-left: 40px;
+    align-items: center;
 }

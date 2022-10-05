@@ -1,3 +1,5 @@
+@import url(../../css/global.css);
+
 .conteiner-super {
     display: flex;
     flex-direction: column;
@@ -9,11 +11,8 @@
     display: flex;
     align-items: flex-start;
 
-    border-top: 1px solid #33323d4e;
-    border-bottom: 1px solid #33323d4c;
-
-
-
+    border-top: 1px solid var(--cor-borda-unica);
+    border-bottom: 1px solid var(--cor-borda-unica);
 }
 
 .tex {
@@ -26,8 +25,12 @@
     width: 635px;
     margin-top: 48px;
     margin-bottom: 48px;
+}
 
-
+.info2 {
+    width: 1110px;
+    display: flex;
+    align-items: flex-start;
 }
 
 p {
@@ -64,10 +67,11 @@ p {
 
     border-radius: 3px;
 
-    width: 635px;
-    height: 48px;
+    width: 625px;
+    height: 38px;
 
     margin-bottom: 24px;
+    padding: 10px;
 }
 
 .maior {
@@ -80,6 +84,7 @@ p {
     width: 635px;
     height: 96px;
     margin-bottom: 24px;
+    padding: 10px;
 }
 
 button {

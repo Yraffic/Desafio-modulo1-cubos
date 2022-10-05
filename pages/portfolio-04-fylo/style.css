@@ -86,10 +86,13 @@ p {
     height: 66px;
 }
 
-
-
 .nav button img {
     width: 8px;
     height: 16px;
 
+}
+
+
+.info {
+    color: #5FB4A2;
 }
